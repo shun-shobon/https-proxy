@@ -15,6 +15,10 @@
     "index.js",
     "dist/"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shun-shobon/https-proxy.git"
+  },
   "author": "Shuntaro Nishizawa <me@shun.technology> (https://github.com/shun-shobon)",
   "license": "MIT",
   "dependencies": {
