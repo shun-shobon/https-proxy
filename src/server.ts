@@ -23,7 +23,7 @@ export const createServer = async (originPort: number, listenPort: number): Prom
     upstream: `http://localhost:${originPort}`,
   });
 
-  await server.listen({ host: "::1", port: listenPort });
+  await server.listen({ host: "localhost", port: listenPort });
 
   return server;
 };
