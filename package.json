@@ -1,0 +1,31 @@
+{
+  "name": "@shun-shobon/https-proxy",
+  "version": "0.1.0",
+  "description": "Local SSL HTTP proxy for development",
+  "bin": {
+    "https-proxy": "index.js"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "files": [
+    "package.json",
+    "LICENSE",
+    "index.js",
+    "dist/"
+  ],
+  "author": "Shuntaro Nishizawa <me@shun.technology> (https://github.com/shun-shobon)",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.11.0",
+    "fastify-http-proxy": "^4.3.0",
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "@types/ws": "^7.4.0",
+    "@types/yargs": "^16.0.0",
+    "typescript": "^4.1.5"
+  }
+}
