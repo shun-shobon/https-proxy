@@ -5,6 +5,8 @@
   "files": [
     "package.json",
     "LICENSE",
+    "key.yml",
+    ".sops.yaml",
     "index.js",
     "dist/"
   ],
